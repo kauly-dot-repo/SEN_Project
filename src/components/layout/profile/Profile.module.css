@@ -1,0 +1,51 @@
+/* Button Styling */
+.actions {
+  padding: 0.5rem 1.5rem;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #1c2c5c;
+  background-color: #1c2c5c;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #1c2c5c;
+  color: #fdaf17;
+  font-style: italic;
+}
+
+
+.image {
+  width: 8rem;
+  height: 8rem;
+  border: 8px solid #1c2c5c;
+  border-radius: 50%;
+  margin: 0.7rem 1.5rem;
+}
+
+
+.profile {
+  border: 1px ;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 1rem;
+  /* padding:10rem; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 0.1rem 0rem 0rem 1rem;
+}
+
+.aboutText {
+  font-size: smaller;
+  margin: 0 1rem;
+  text-align: center;
+}
