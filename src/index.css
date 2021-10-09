@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+div.banner {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(2, 40, 255);
+  position: relative;
+}
+
+div.main {
+  position: relative;
+  height: 880px;
+  width: 100%;
+  background-color: rgb(182, 182, 182);
+}
+
+img.ava {
+  position: relative;
+  top: 20px;
+  left: 12.5%;
+  width: 200px;
+  height: 200px;
+}
+
+h1.uni {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(221, 239, 255);
+}
+h2.Facualty {
+  position: relative;
+  top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(221, 239, 255);
+}
+h1.prod {
+  position: relative;
+  top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(221, 239, 255);
+}
+h4.Username {
+  position: relative;
+  top: -150px;
+  left: 4.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(49, 104, 255);
+}
+
+div.Page-title {
+  position: relative;
+  top: 20px;
+  left: 270px;
+}
+
+div.side-panel {
+  height: 100%;
+  width: 280px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 200px;
+  left: 0px;
+}
+
+div.navig {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 25px;
+  background-color: rgb(0, 28, 151);
+}
+
+ul.sd_nav {
+  position: relative;
+  top: 300px;
+  width: 10%;
+  background-color: rgb(255, 255, 255);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid white;
+}
+
+li a {
+  top: -20px;
+  display: block;
+  width: 15%;
+  color: rgb(51, 67, 216);
+  padding: 30px 5px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  text-align: center;
+}
+
+li.nv a:hover {
+  width: 140%;
+  background-color: rgb(161, 161, 161);
+  color: white;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+ul.Posts {
+  position: relative;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 70px;
+  align-self: center;
+}
+
+div.Post {
+  border-radius: 10px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  height: 150px;
+  width: 70%;
+  margin-top: 40px;
+  padding: 30px 40px;
+  align-self: center;
+  box-shadow: 10px 10px 5px grey;
+  left: 10%;
+}
+
+button.pbut {
+  position: relative;
+  top: 50px;
+  left: 1000px;
+  background-color: rgb(21, 21, 255);
+  border-radius: 10px;
+  height: 45px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  border: none;
+  margin: 4px 2px;
+}
+
+li.thePost {
+  position: relative;
+  display: block;
+  width: 15%;
+  color: rgb(28, 51, 255);
+  padding: 30px 5px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  left: 40px;
+}
+img.lelog {
+  position: relative;
+  top: -70px;
+  left: 30px;
+  height: 150px;
+  width: 150px;
+}
+img.avatar {
+  position: relative;
+  top: 30px;
+  left: 40px;
+  height: 180px;
+  width: 180px;
+}
+
+img.UpBut {
+  position: fixed;
+  top: 700px;
+  left: 1600px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+div.upload {
+  position: fixed;
+  top: 100px;
+  left: 500px;
+  width: 800px;
+  height: 800px;
+  background-color: white;
+}
+
+div.backdrop {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+button.upbut {
+  position: relative;
+  top: 700px;
+  left: 600px;
+  background-color: rgb(21, 21, 255);
+  border-radius: 10px;
+  height: 45px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  border: none;
+  margin: 4px 2px;
+}
