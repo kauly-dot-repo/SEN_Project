@@ -1,0 +1,36 @@
+.wrapper {
+  margin: 10px;
+  width: 70%;
+  height: 450px;
+  overflow: auto;
+
+  float: right;
+
+  border: 1px solid #505050;
+  background-color: white;
+  border: transparent;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  border: 1px ;
+  background-color: white;
+  border-radius: 6px;
+  /* margin-top: 5px; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  /* padding: 0.1rem 0rem 0rem 1rem; */
+  padding-top: 0.7%;
+  width: 24%;
+  height: 450px;
+  align-content: center;
+}
+
+section {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+}
