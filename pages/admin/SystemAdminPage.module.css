@@ -1,0 +1,75 @@
+.wrapper {
+  margin: 0 10px;
+  width: 70%;
+  height: 440px;
+  overflow: auto;
+
+  float: right;
+
+  border: 1px solid #505050;
+  background-color: white;
+  border: transparent;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  border: 1px;
+  background-color: white;
+  border-radius: 6px;
+  /* margin-top: 5px; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  /* padding: 0.1rem 0rem 0rem 1rem; */
+  padding-top: 5%;
+  padding-right: 0.9%;
+  width: fit-content;
+  height: 400px;
+  align-content: center;
+}
+
+.admin {
+  border: 1px;
+  background-color: white;
+  border-radius: 6px;
+  /* margin-top: 5px; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  /* padding: 0.1rem 0rem 0rem 1rem; */
+  padding-top: 5%;
+  padding-right: 0.2%;
+  width: fit-content;
+  height: 390px;
+  align-content: center;
+}
+
+.admin div {
+  padding: 20px;
+  margin: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fdaf17;
+  border-radius: 6px;
+  color: #1c2c5c;
+}
+
+.admin div:hover {
+  cursor: pointer;
+  border: 1px solid #fdaf17;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.admin div:visited{
+  color: #1c2c5c;
+}
+
+/* .admin Link {
+  text-decoration: none;
+} */
+
+section {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+}
