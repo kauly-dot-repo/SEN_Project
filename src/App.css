@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+h1 {
+  font-variant: small-caps;
+  color: #1c2c5c;
+  font-weight: bold;
+  padding: 5px 0;
+}
