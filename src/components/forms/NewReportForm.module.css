@@ -1,0 +1,12 @@
+.text{
+  font-variant: small-caps;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1c2c5c;
+  margin: 1rem 2.5rem ;
+  padding: 0.2%;
+}
+/* 
+.downloadFilter {
+  padding: 10px;
+  margin: 10px;
+} */
